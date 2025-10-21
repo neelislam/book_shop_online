@@ -28,7 +28,6 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
     super.initState();
     _loadSimilarBooks();
   }
-
   Future<void> _loadSimilarBooks() async {
     setState(() => _isLoadingSimilar = true);
 
