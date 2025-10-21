@@ -1,0 +1,74 @@
+name: books_smart_app
+description: "Third Year Project"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  # 🌐 Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  url_launcher: ^6.3.0
+  # 🧩 UI & Icons
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.0
+  dropdown_button2: ^2.3.9
+  otp_text_field_v2: ^1.0.3
+  pin_code_fields: ^8.0.1
+  image_picker: ^1.0.4
+
+
+
+  firebase_core: ^3.5.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.2.0
+
+  flutter_sslcommerz: ^2.5.1
+
+
+  get: ^4.6.6
+  http: ^1.5.0
+  get_storage: ^2.1.1
+
+  email_validator: ^3.0.0
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.14.4"
+
+flutter_launcher_icons:
+      android: "launcher_icon"
+      ios: true
+      image_path: "assets/images/icon.png"
+build_runner: ^2.4.7
+json_serializable: ^6.7.1
+flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+
+  # 🌍 (Optional but recommended) Localization config
+  # This tells Flutter where to find your .arb files and where to generate code.
+  # Uncomment if you want to explicitly configure it:
+  #
+  # generate_localized_resources:
+  #   arb-dir: lib/l10n
+  #   template-arb-file: app_en.arb
+  #   output-localization-file: app_localizations.dart
+  #   output-class: AppLocalizations

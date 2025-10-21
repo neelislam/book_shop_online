@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "851690943947",
+    "project_id": "book-smart-app",
+    "storage_bucket": "book-smart-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851690943947:android:6cb2ddc0eaaf4b5dcf324e",
+        "android_client_info": {
+          "package_name": "com.example.books_smart_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9JPs5KyiTI5VwSffmsZt_4R9NplPx6P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851690943947:android:40bfaa7775ea1702cf324e",
+        "android_client_info": {
+          "package_name": "com.example.books_smart_app_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9JPs5KyiTI5VwSffmsZt_4R9NplPx6P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
