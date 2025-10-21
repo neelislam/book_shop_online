@@ -10,9 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
-
   # 🌐 Localization
   flutter_localizations:
     sdk: flutter
